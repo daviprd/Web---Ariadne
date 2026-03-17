@@ -1,0 +1,44 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+
+ .Cartao {
+    font-family: 'Courier New', Courier, monospace;
+      background:rgb(255, 255, 255);
+      padding: 40px;
+      border-radius: 10px;
+      width: 30%;
+      text-align: center;
+      
+    }
+
+    .Cartao img {
+      width: 250px;
+      height: 200px;
+      
+      margin: 15px 0;
+      border-radius: 8px;
+    }
+
+    .Cartao h1 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    .Cartao h2 {
+      font-size: 16px;
+      margin-bottom: 15px;
+      color: #000000;
+    }
+
+    .Cartao button {
+      padding: 10px 15px;
+      border: none;
+      background: #007BFF;
+      color: rgb(0, 0, 0);
+      border-radius: 8px;
+      
+    }
