@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id = "nome">
+    <select id="prioridade">
+        <option> Alta Prioridade</option>
+        <option> Baixa Prioridade</option>
+    </select>
+
+    <button onclick="mostrar()"> Ok</button>
+    <script>
+        function mostrar(){
+        let valor = document.getElementById("nome").value;
+        let prioridade = document.getElementById("estado").value;
+        let p = document.createElement('p');
+        p.innerHTML = 'Nome da Tarefa: ' + valor + ' | Nível de Prioridade: ' + prioridade;
+        document.body.appendChild(p);
+        
+       
+        }
+
+
+    </script>
+</body>
+</html>
